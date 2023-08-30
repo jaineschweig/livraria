@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Inconsolata', monospace;
-    background-color: #f0f0f0;
+    background-color: #f0d3fa;
 }
 
 header {
@@ -78,4 +78,16 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: calc(50% - 20px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .card {
+        width: 100%;
+    }
 }
